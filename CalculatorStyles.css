@@ -1,0 +1,86 @@
+.main {
+  background-image: linear-gradient(135deg, #9c5dd5, #f49076);;
+  width: 60vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+}
+
+.calc {
+  margin: auto;
+  height: 70%;
+  width: 35%;
+  border-radius: 5px;
+  overflow: hidden;
+  /*outline: 3px solid red;*/
+}
+
+.screen {
+  height: 10%;
+  font-size: 20px;
+  text-align: right;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-input{
+  align-self: flex-end;
+  color: #b6697b;
+  margin-right: 25px;
+}
+
+.result {
+  height: 15%;
+  font-size: 40px;
+}
+
+.output {
+  align-self: center;
+  margin-right: 25px;
+  margin-top: 5%;
+  margin-bottom: 25px;
+}
+.row {
+  height: 15%;
+  display: flex;
+}
+
+.column {
+  display: inline-flex;
+  width: 25%;
+}
+
+button {
+  font-family: 'Kdam Thmor', 'Lato', cursive, sans-serif;
+  color: #5d5d5d;
+  width: 100%;
+  font-size: 25px;
+  border: 0;
+}
+
+.column-1 {
+  background-color: #f7f7f7;
+}
+
+.column-2 {
+  background-color: #f6f6f6;
+}
+
+.column-3 {
+  background-color: #f5f5f5;
+}
+
+.operator {
+  background-color: #9157e2;
+  color: white;
+}
+
+.equal-btn {
+  background-color: #e72f89;
+  color: white;
+}
+.equal {
+  width: 50%;
+}
