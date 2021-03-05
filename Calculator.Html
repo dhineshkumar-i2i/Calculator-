@@ -1,89 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Calculator</title>
-  <link rel="stylesheet" href="CalculatorStyles.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="CalculatorStyles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kdam+Thmor&family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor&family=Lato&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="main">
-    <div class="calc">
-      <div class="screen"><div class="user-input">21+223</div></div>
-      <div class="screen result"><div class="output">100</div></div>
-      <div class="row">
-        <div class="column">
-          <button class="column-1">%</button>
+  <body>
+    <div class="main">
+      <div class="calc">
+        <div class="screen"><div class="userinput">0</div></div>
+        <div class="screen result"><div class="output">0</div></div>
+        <div class="row">
+          <button class="column-1" id="modulo">%</button>
+          <button class="column-2" id="negate">+/-</button>
+          <button class="column-3" id="clear">C</button>
+          <button class="operator" id="divide">/</button>
         </div>
-        <div class="column">
-          <button class="column-2">+/-</button>
+        <div class="row">
+          <button class="column-1" id="seven">7</button>
+          <button class="column-2" id="eight">8</button>
+          <button class="column-3" id="nine">9</button>
+          <button class="operator" id="multiply">*</button>
         </div>
-        <div class="column">
-          <button class="column-3">C</button>
+        <div class="row">
+          <button class="column-1" id="four">4</button>
+          <button class="column-2" id="five">5</button>
+          <button class="column-3" id="six">6</button>
+          <button class="operator" id="minus">-</button>
         </div>
-        <div class="column">
-          <button class="operator">/</button>
+        <div class="row">
+          <button class="column-1" id="one">1</button>
+          <button class="column-2" id="two">2</button>
+          <button class="column-3" id="three">3</button>
+          <button class="operator" id="plus">+</button>
         </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <button class="column-1">7</button>
-        </div>
-        <div class="column">
-          <button class="column-2">8</button>
-        </div>
-        <div class="column">
-          <button class="column-3">9</button>
-        </div>
-        <div class="column">
-          <button class="operator">&times;</button>
+        <div class="row">
+          <button class="column-1" id="zero">0</button>
+          <button class="column-2" id="decimal">.</button>
+          <button class="equal-btn" id="equal">=</button>
         </div>
       </div>
-      <div class="row">
-        <div class="column">
-          <button class="column-1">4</button>
-        </div>
-        <div class="column">
-          <button class="column-2">5</button>
-        </div>
-        <div class="column">
-          <button class="column-3">6</button>
-        </div>
-        <div class="column">
-          <button class="operator">-</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <button class="column-1">1</button>
-        </div>
-        <div class="column">
-          <button class="column-2">2</button>
-        </div>
-        <div class="column">
-          <button class="column-3">3</button>
-        </div>
-        <div class="column">
-          <button class="operator">+</button>
-        </div>
-      </div>
-      <div class="row">
-        <div class="column">
-          <button class="column-1">0</button>
-        </div>
-        <div class="column">
-          <button class="column-2">.</button>
-        </div>
-        <div class="column equal">
-          <button class="equal-btn">=</button>
-        </div>
-      </div>
-    </div>    
-  </div>
-  
-</body>
-
+    </div>
+    <script src="CalculatorJs.js"></script>
+  </body>
 </html>
